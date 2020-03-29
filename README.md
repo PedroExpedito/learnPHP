@@ -47,19 +47,20 @@ Para parar o banco de dados mariaDB: Testado no Debian
 
 ```CREATE USER teste@localhost;``` Criar usuario
 
-```GRANT ALL ON banco_teste.* TO teste@localhost;
+```GRANT ALL ON banco_teste.* TO teste@localhost;```
+
 SET PASSWORD FOR 'teste'@'localhost' = PASSWORD('123'); ``` dando permissoes para o usuario
 
 ```SHOW TABLES;``` mostra as tabelas
 
-```SHOW COLUMNS FROM nomedatablea;``` #mostra as colunas da tabela
+```SHOW COLUMNS FROM nomedatablea;``` mostra as colunas da tabela
 
-```SELECT * FROM Nomedatabela;``` # mostra todos os dados da tabela
+```SELECT * FROM Nomedatabela;``` mostra todos os dados da tabela
 
 ### Apache2
 
 intalar ele e depois a dependencia para interpretar PHP7
-para instalar ```# apt install apache2```
+para instalar ``` apt install apache2```
 
 
 
